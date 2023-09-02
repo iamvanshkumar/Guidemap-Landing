@@ -1,203 +1,140 @@
 <!DOCTYPE html>
-<!-- saved from url=(0040)https://demo.graygrids.com/themes/basic/ -->
-<html
-    class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
-    lang="en">
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-    <!--====== Title ======-->
-    <title>Basic - Tailwind CSS Template</title>
-
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - GuideMap </title>
+    <meta name="description"
+        content="Access Expertly Crafted Handwritten Notes, Projects, and Previous Year Papers for Free on GuideMap! Elevate your learning experience with our comprehensive collection of meticulously curated handwritten notes, detailed projects, and valuable previous year papers. Whether you're a dedicated student aiming for academic excellence or a knowledge enthusiast on a quest for mastery, our platform is tailored to fuel your success. Join now to unlock a wealth of resources that will propel your studies, empower project success, and enhance exam performance. GuideMap - Your Trusted Partner for Excellence, Enriching Your Learning Journey, One Note at a Time.">
+    <!-- <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png"> -->
+    <!-- <link rel="manifest" href="../assets/js/manifest.json"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="https://demo.graygrids.com/themes/basic/assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
 
-    <!--====== Animate CSS ======-->
-    <link rel="stylesheet" href="./css/animate.css">
-
-    <!--====== Magnific Popup CSS ======-->
-    <link rel="stylesheet" href="./css/magnific-popup.css">
-
-    <!--====== Slick CSS ======-->
-    <link rel="stylesheet" href="./css/slick.css">
-
-    <!--====== Line Icons CSS ======-->
-    <link rel="stylesheet" href="./css/LineIcons.2.0.css">
-
-
-    <!--====== Style CSS ======-->
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    <link rel="stylesheet" href="./css/tailwind.css">
-
+    <style>
+        #message {
+            margin-top: 10px;
+            color: rgb(239 68 68);
+        }
+    </style>
 </head>
 
-<body class="font-sans">
-    <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<body class="font-sans bg-gray-100"></body>
+<section style="background-image: url(./bg-landing.png);"
+    class="relative flex justify-center items-start pt-8 overflow-hidden bg-center h-screen  bg-cover bg-gray-500">
+
+   
 
 
-    <!--====== PRELOADER PART START ======-->
 
-    <div class="hidden preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
+    <span id="background-wrap" class="z-10 absolute top-0 left-0 w-full bg-center bg-cover">
+        <div class="bubble x1  flex text-center justify-center items-center">asfas</div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </span>
+</section>
+
+<main class="md:mt-0 mt-8 z-50">
+    <section class="flex justify-center animate-up">
+        <div class="container">
+            <div class="flex flex-wrap mx-3 -mt-48 md:-mt-48 lg:-mt-48">
+                <div class="w-full max-w-full px-3 mx-auto mt-0 md:flex-0 shrink-0 md:w-7/12 lg:w-5/12 xl:w-4/12">
+                    <div
+                        class="relative z-0 flex flex-col min-w-0 break-words bg-white border-0 shadow-xl rounded-2xl bg-clip-border">
+                        <div class="p-6 pb-0 text-center">
+                            <span class="text-gray-700 font-medium">Register Now</span>
                         </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
+                        <div class="flex-auto p-6">
+                            <form role="form text-left" id="signInForm">
+                                <div class="mb-4">
+                                    <input type="text" id="name" name="name"
+                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
+                                        placeholder="Full name" aria-label="Email" aria-describedby="email-addon" />
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" id="email" name="email"
+                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
+                                        placeholder="Email" aria-label="Email" aria-describedby="email-addon" />
+                                </div>
+                                <div class="mb-4">
+                                    <input type="password" id="password" name="password" class=" text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft
+                                    block w-full appearance-none rounded-lg border border-solid border-gray-300
+                                    bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all
+                                    focus:border-purple-600 focus:bg-white focus:text-gray-700
+                                    focus:outline-none focus:transition-shadow" placeholder="Password"
+                                        aria-label="Password" aria-describedby="password-addon" />
+                                </div>
+                                <div class="mb-4">
+                                    <input type="password" id="confirmPassword" name="confirmPassword" class=" text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft
+                                    block w-full appearance-none rounded-lg border border-solid border-gray-300
+                                    bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all
+                                    focus:border-purple-600 focus:bg-white focus:text-gray-700
+                                    focus:outline-none focus:transition-shadow" placeholder="Confirm Password"
+                                        aria-label="Password" aria-describedby="password-addon" />
+                                </div>
+                                <div class="mb-4">
+                                    <label for="dob" class="text-xs font-normal text-gray-6 00">
+                                        Date of birth:
+                                    </label>
+                                    <input type="date" id="dob" name="dob"
+                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
+                                        placeholder="date" />
+                                </div>
+                                <div class="text-center ">
+                                    <button type="submit" id="sign-in"
+                                        class="inline-block w-full px-6 py-3 mb-2 font-bold text-center text-white uppercase align-middle transition-all bg-transparent border-0 rounded-lg cursor-pointer active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 bg-gradient-to-tl from-gray-900 to-gray-600 hover:border-slate-700 hover:bg-gray-600 hover:text-white">Sign
+                                        UP</button>
+                                </div>
+                                <p id="message" class="text-center text-sm">
+                                </p>
+                                <p class="mt-6 mb-0 leading-normal text-sm text-center text-gray-600">Already have an
+                                    account ?<span class="text-pink-500 mx-1">|</span><a href="../Sign-In"
+                                        class="font-bold text-gray-700 hover:underline">Sign In</a>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <footer class="py-16 flex flex-col justify-center text-sm">
+        <div class="flex justify-center text-center text-gray-500 md:gap-12 gap-6 py-4">
+            <a href="javascript:;" target="_blank" class=""> About
+                Us </a>
+            <a href="javascript:;" target="_blank" class=""> Terms
+            </a>
+            <a href="javascript:;" target="_blank" class="">
+                Copyright</a>
+            <a href="javascript:;" target="_blank" class="">
+                Privacy</a>
+        </div>
+        <div class="flex flex-wrap ">
+            <div class="w-8/12 max-w-full px-3 mx-auto mt-1 text-center flex-0">
+                <p class="mb-0 text-gray-500">
+                    Copyright ©
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    GuideMap.
+                </p>
+            </div>
+        </div>
+        </div>
+    </footer>
 
-    <!--====== PRELOADER PART ENDS ======-->
-
-    <!--====== HEADER PART START ======-->
-
-    <header class="header-area">
-        <div class="navbar-area">
-            <div class="container relative">
-                <div class="row">
-                    <div class="w-full">
-                        <nav class="flex items-center justify-between navbar navbar-expand-lg">
-                            <a class="mr-4 navbar-brand flex items-center" href="https://demo.graygrids.com/themes/basic/index.html">
-                                <img src="https://guidemap.in/assets/img/GDLogo.png"
-                                    class="w-auto h-10 text-blue-600 fill-current" alt="">
-                                <span class="LogoName ml-3 text-xl text-white font-black">GuideMap</span><span
-                                    class="text-pink-500">.</span>
-                            </a>
-                            </a>
-                            <button class="block navbar-toggler focus:outline-none lg:hidden" type="button"
-                                data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-
-                            <div class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none"
-                                id="navbarOne">
-                                <ul id="nav"
-                                    class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
-                                    <li class="nav-item active">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#home">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#features">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#facts">Why</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#team">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll"
-                                            href="https://demo.graygrids.com/themes/basic/#blog">Blog</a>
-                                    </li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-
-                            <div
-                                class="absolute right-0 hidden mt-2 mr-24 navbar-btn sm:inline-block lg:mt-0 lg:static lg:mr-0">
-                                <a class="main-btn gradient-btn" data-scroll-nav="0"
-                                    href="https://demo.graygrids.com/themes/basic/#" rel="nofollow">Download Now</a>
-                            </div>
-                        </nav> <!-- navbar -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- navbar area -->
-
-        <div id="home" class="header-hero" style="background-image: url(./bg-landing.png)">
-            <div class="container">
-                <div class="justify-center row">
-                    <div class="w-full lg:w-2/3">
-                        <div class="pt-32 mb-12 text-center lg:pt-48 header-hero-content">
-                            <h3 class="text-4xl font-light leading-tight text-white header-sub-title wow fadeInUp"
-                                data-wow-duration="1.3s" data-wow-delay="0.2s"
-                                style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                Basic - SaaS Landing Page</h3>
-                            <h2 class="mb-3 text-4xl font-bold text-white header-title wow fadeInUp"
-                                data-wow-duration="1.3s" data-wow-delay="0.5s"
-                                style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                Kickstart Your SaaS or App Site</h2>
-                            <p class="mb-8 text-white text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"
-                                style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.8s; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            </p>
-                            <a href="https://demo.graygrids.com/themes/basic/#"
-                                class="main-btn gradient-btn gradient-btn-2 wow fadeInUp" data-wow-duration="1.3s"
-                                data-wow-delay="1.1s"
-                                style="visibility: visible; animation-duration: 1.3s; animation-delay: 1.1s; animation-name: fadeInUp;">Get
-                                Started</a>
-                        </div> <!-- header hero content -->
-                    </div>
-                </div> <!-- row -->
-                <div class="justify-center row">
-                    <div class="w-full lg:w-2/3">
-                        <div class="text-center header-hero-image wow fadeIn" data-wow-duration="1.3s"
-                            data-wow-delay="1.4s"
-                            style="visibility: visible; animation-duration: 1.3s; animation-delay: 1.4s; animation-name: fadeIn;">
-                            <img src="./header-hero.png" alt="hero">
-                        </div> <!-- header hero image -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-            <div id="particles-1" class="particles"><canvas class="particles-js-canvas-el"
-                    style="width: 100%; height: 100%;" width="1037" height="1005"></canvas></div>
-        </div> <!-- header hero -->
-    </header>
-
-
-
-
-
-    <!--====== Jquery js ======-->
-    <script src="./js/jquery-3.5.1-min.js"></script>
-    <script src="./js/modernizr-3.7.1.min.js"></script>
-
-    <!--====== Plugins js ======-->
-    <script src="./js/plugins.js"></script>
-
-    <!--====== Slick js ======-->
-    <script src="./js/slick.min.js"></script>
-
-    <!--====== Scrolling Nav js ======-->
-    <script src="./js/jquery.easing.min.js"></script>
-    <script src="./js/scrolling-nav.js"></script>
-
-    <!--====== wow js ======-->
-    <script src="./js/wow.min.js"></script>
-
-    <!--====== Particles js ======-->
-    <script src="./js/particles.min.js"></script>
-
-    <!--====== Main js ======-->
-    <script src="./js/main.js"></script>
-
-
-
-
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
