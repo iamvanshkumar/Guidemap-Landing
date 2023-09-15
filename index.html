@@ -13,128 +13,122 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
     <link rel="stylesheet" href="./style.css">
 
-    <style>
-        #message {
-            margin-top: 10px;
-            color: rgb(239 68 68);
-        }
-    </style>
 </head>
 
-<body class="font-sans bg-gray-100"></body>
-<section style="background-image: url(./bg-landing.png);"
-    class="relative flex justify-center items-start pt-8 overflow-hidden bg-center h-screen  bg-cover bg-gray-500">
-
+<body class="overflow-x-hidden antialiased font-sans bg-gray-100">
+    <!-- <section>
+      <h1>Blob Animation</h1>
+        <a href="https://blobanimation.com/" class="btn" target="_blank">Explore</a>
+    </section> -->
    
 
 
 
-    <span id="background-wrap" class="z-10 absolute top-0 left-0 w-full bg-center bg-cover">
-        <div class="bubble x1  flex text-center justify-center items-center">asfas</div>
-        <div class="bubble x2"></div>
-        <div class="bubble x3"></div>
-        <div class="bubble x4"></div>
-        <div class="bubble x5"></div>
-        <div class="bubble x6"></div>
-        <div class="bubble x7"></div>
-        <div class="bubble x8"></div>
-        <div class="bubble x9"></div>
-        <div class="bubble x10"></div>
-    </span>
-</section>
 
-<main class="md:mt-0 mt-8 z-50">
-    <section class="flex justify-center animate-up">
-        <div class="container">
-            <div class="flex flex-wrap mx-3 -mt-48 md:-mt-48 lg:-mt-48">
-                <div class="w-full max-w-full px-3 mx-auto mt-0 md:flex-0 shrink-0 md:w-7/12 lg:w-5/12 xl:w-4/12">
-                    <div
-                        class="relative z-0 flex flex-col min-w-0 break-words bg-white border-0 shadow-xl rounded-2xl bg-clip-border">
-                        <div class="p-6 pb-0 text-center">
-                            <span class="text-gray-700 font-medium">Register Now</span>
-                        </div>
-                        <div class="flex-auto p-6">
-                            <form role="form text-left" id="signInForm">
-                                <div class="mb-4">
-                                    <input type="text" id="name" name="name"
-                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
-                                        placeholder="Full name" aria-label="Email" aria-describedby="email-addon" />
-                                </div>
-                                <div class="mb-4">
-                                    <input type="email" id="email" name="email"
-                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
-                                        placeholder="Email" aria-label="Email" aria-describedby="email-addon" />
-                                </div>
-                                <div class="mb-4">
-                                    <input type="password" id="password" name="password" class=" text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft
-                                    block w-full appearance-none rounded-lg border border-solid border-gray-300
-                                    bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all
-                                    focus:border-purple-600 focus:bg-white focus:text-gray-700
-                                    focus:outline-none focus:transition-shadow" placeholder="Password"
-                                        aria-label="Password" aria-describedby="password-addon" />
-                                </div>
-                                <div class="mb-4">
-                                    <input type="password" id="confirmPassword" name="confirmPassword" class=" text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft
-                                    block w-full appearance-none rounded-lg border border-solid border-gray-300
-                                    bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all
-                                    focus:border-purple-600 focus:bg-white focus:text-gray-700
-                                    focus:outline-none focus:transition-shadow" placeholder="Confirm Password"
-                                        aria-label="Password" aria-describedby="password-addon" />
-                                </div>
-                                <div class="mb-4">
-                                    <label for="dob" class="text-xs font-normal text-gray-6 00">
-                                        Date of birth:
-                                    </label>
-                                    <input type="date" id="dob" name="dob"
-                                        class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-purple-600 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow"
-                                        placeholder="date" />
-                                </div>
-                                <div class="text-center ">
-                                    <button type="submit" id="sign-in"
-                                        class="inline-block w-full px-6 py-3 mb-2 font-bold text-center text-white uppercase align-middle transition-all bg-transparent border-0 rounded-lg cursor-pointer active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 bg-gradient-to-tl from-gray-900 to-gray-600 hover:border-slate-700 hover:bg-gray-600 hover:text-white">Sign
-                                        UP</button>
-                                </div>
-                                <p id="message" class="text-center text-sm">
-                                </p>
-                                <p class="mt-6 mb-0 leading-normal text-sm text-center text-gray-600">Already have an
-                                    account ?<span class="text-pink-500 mx-1">|</span><a href="../Sign-In"
-                                        class="font-bold text-gray-700 hover:underline">Sign In</a>
-                                </p>
-                            </form>
-                        </div>
-                    </div>
+
+
+    <section class="relative">
+        <nav class="bg-transparent border-gray-200 dark:bg-gray-900 relative z-10">
+          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex items-center">
+                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                </a>
+                <div class="flex md:order-2">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                        started</button>
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="py-16 flex flex-col justify-center text-sm">
-        <div class="flex justify-center text-center text-gray-500 md:gap-12 gap-6 py-4">
-            <a href="javascript:;" target="_blank" class=""> About
-                Us </a>
-            <a href="javascript:;" target="_blank" class=""> Terms
-            </a>
-            <a href="javascript:;" target="_blank" class="">
-                Copyright</a>
-            <a href="javascript:;" target="_blank" class="">
-                Privacy</a>
-        </div>
-        <div class="flex flex-wrap ">
-            <div class="w-8/12 max-w-full px-3 mx-auto mt-1 text-center flex-0">
-                <p class="mb-0 text-gray-500">
-                    Copyright ©
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
-                    GuideMap.
-                </p>
-            </div>
-        </div>
-        </div>
-    </footer>
+        </nav>
+        <svg class="absolute top-0 left-0 h-screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgba(255, 255, 255,0); display: block; z-index: -1; position: absolute; shape-rendering: auto;" preserveAspectRatio="xMidYMid" viewBox="0 0 1980 300">
 
-</main>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script src="script.js"></script>
+        <g transform="">
+            <linearGradient id="lg-0.8589700868456098" x1="0" x2="1" y1="0" y2="0">
+                <stop stop-color="rgb(124 58 237)" offset="0"></stop>
+                <stop stop-color="rgb(124 58 237)" offset="0"></stop>
+                <stop stop-color="rgb(124 58 237)" offset="1"></stop>
+            </linearGradient>
+            <path
+                d="M 0 0 L 0 241.915 Q 165 249.725 330 215.673 T 660 208.18 T 990 199.055 T 1320 208.65 T 1650 230.303 T 1980 211.464 L 1980 0 Z"
+                fill="url(#lg-0.8589700868456098)" opacity="0.4">
+                <animate attributeName="d" dur="14.285714285714285s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+                    values="M0 0L 0 243.84212793573954Q 165 244.198481323735  330 214.97043919697492T 660 203.02580743298734T 990 199.82321083516976T 1320 201.96793159645011T 1650 230.24393184683908T 1980 207.67099842439933L 1980 0 Z;M0 0L 0 235.0618328876254Q 165 269.3721943745703  330 218.17211425063454T 660 226.50305342938853T 990 196.3260923575501T 1320 232.4077939064989T 1650 230.51147502836807T 1980 224.94661631212443L 1980 0 Z;M0 0L 0 205.27226479494266Q 165 240.5155728470433  330 212.79915181526675T 660 213.58512293669696T 990 212.32102514981105T 1320 204.89820182351832T 1650 246.2686309045961T 1980 215.49084241837852L 1980 0 Z;M0 0L 0 243.84212793573954Q 165 244.198481323735  330 214.97043919697492T 660 203.02580743298734T 990 199.82321083516976T 1320 201.96793159645011T 1650 230.24393184683908T 1980 207.67099842439933L 1980 0 Z">
+                </animate>
+            </path>
+            <path
+                d="M 0 0 L 0 227.032 Q 165 262.125 330 238.153 T 660 207.735 T 990 220.548 T 1320 228.142 T 1650 211.542 T 1980 236.441 L 1980 0 Z"
+                fill="url(#lg-0.8589700868456098)" opacity="0.4">
+                <animate attributeName="d" dur="14.285714285714285s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-2.8571428571428568s"
+                    values="M0 0L 0 198.91548309391138Q 165 261.3922476818655  330 234.30112068896972T 660 204.3221098374849T 990 197.40719560146192T 1320 210.24404882431836T 1650 221.90110529290098T 1980 229.98865514501918L 1980 0 Z;M0 0L 0 233.19830897370343Q 165 262.28508633762743  330 238.99758623407547T 660 208.4840242477092T 990 225.62292636527536T 1320 232.06758779859936T 1650 209.26990298551567T 1980 237.85581571111973L 1980 0 Z;M0 0L 0 214.6550175761586Q 165 255.77933395353938  330 205.58046331850787T 660 248.3458831575966T 990 222.1831187074748T 1320 230.19035948492177T 1650 228.0683781289646T 1980 201.17251667905413L 1980 0 Z;M0 0L 0 198.91548309391138Q 165 261.3922476818655  330 234.30112068896972T 660 204.3221098374849T 990 197.40719560146192T 1320 210.24404882431836T 1650 221.90110529290098T 1980 229.98865514501918L 1980 0 Z">
+                </animate>
+            </path>
+            <path
+                d="M 0 0 L 0 237.421 Q 165 234.24 330 206.641 T 660 208.817 T 990 212.796 T 1320 203.256 T 1650 207.638 T 1980 231.557 L 1980 0 Z"
+                fill="url(#lg-0.8589700868456098)" opacity="0.4">
+                <animate attributeName="d" dur="14.285714285714285s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-5.7142857142857135s"
+                    values="M0 0L 0 215.16905431144298Q 165 249.14013005538385  330 208.41012606073144T 660 219.40030814888186T 990 211.27085687418423T 1320 192.61204273811109T 1650 197.1885193400654T 1980 194.1286625359876L 1980 0 Z;M0 0L 0 229.8226321403231Q 165 236.19867929760932  330 203.52409441404166T 660 214.7170706299125T 990 198.3572922664371T 1320 205.71937345561807T 1650 212.78814530052776T 1980 239.82308226121222L 1980 0 Z;M0 0L 0 247.9361109368723Q 165 231.5303336771614  330 210.95445598569952T 660 200.65096582892625T 990 232.7786653161789T 1320 199.8474501390285T 1650 200.50986927760832T 1980 220.1168133404018L 1980 0 Z;M0 0L 0 215.16905431144298Q 165 249.14013005538385  330 208.41012606073144T 660 219.40030814888186T 990 211.27085687418423T 1320 192.61204273811109T 1650 197.1885193400654T 1980 194.1286625359876L 1980 0 Z">
+                </animate>
+            </path>
+            <path
+                d="M 0 0 L 0 236.55 Q 165 256.696 330 217.771 T 660 229.085 T 990 199.848 T 1320 234.073 T 1650 227.095 T 1980 237.087 L 1980 0 Z"
+                fill="url(#lg-0.8589700868456098)" opacity="0.4">
+                <animate attributeName="d" dur="14.285714285714285s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-8.571428571428571s"
+                    values="M0 0L 0 224.7037505439761Q 165 272.6930353316019  330 229.55156582258994T 660 236.61065365348014T 990 219.91504503660167T 1320 230.31466475967437T 1650 220.06173038098666T 1980 207.42481352241373L 1980 0 Z;M0 0L 0 208.16910156011605Q 165 259.1249630688156  330 226.47382965111322T 660 228.26470562084018T 990 214.50370306252307T 1320 233.37870660752753T 1650 248.78240193288315T 1980 229.8215346622372L 1980 0 Z;M0 0L 0 236.77128821460013Q 165 256.3974835288876  330 217.5513635828135T 660 228.94425335689596T 990 199.4737517303316T 1320 234.14322206572314T 1650 227.22631676701283T 1980 237.64106680051827L 1980 0 Z;M0 0L 0 224.7037505439761Q 165 272.6930353316019  330 229.55156582258994T 660 236.61065365348014T 990 219.91504503660167T 1320 230.31466475967437T 1650 220.06173038098666T 1980 207.42481352241373L 1980 0 Z">
+                </animate>
+            </path>
+            <path
+                d="M 0 0 L 0 208.515 Q 165 252.623 330 209.4 T 660 212.907 T 990 214.014 T 1320 210.712 T 1650 206.499 T 1980 232.652 L 1980 0 Z"
+                fill="url(#lg-0.8589700868456098)" opacity="0.4">
+                <animate attributeName="d" dur="14.285714285714285s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+                    calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-11.428571428571427s"
+                    values="M0 0L 0 206.7391959060845Q 165 245.70594371304395  330 203.10592615464478T 660 200.39674383834097T 990 223.5013485428745T 1320 197.11555530025123T 1650 192.20908422829876T 1980 225.460814725169L 1980 0 Z;M0 0L 0 222.47847594882043Q 165 226.43274857890046  330 203.86035526418627T 660 198.8500946506723T 990 246.60167473644773T 1320 194.98517556687025T 1650 247.29227858709245T 1980 200.39555084376045L 1980 0 Z;M0 0L 0 211.39873916492658Q 165 263.85646813786497  330 219.62354308390505T 660 233.22692097790812T 990 198.60435835485188T 1320 232.7961046393257T 1650 229.7087015967473T 1980 244.3330217931673L 1980 0 Z;M0 0L 0 206.7391959060845Q 165 245.70594371304395  330 203.10592615464478T 660 200.39674383834097T 990 223.5013485428745T 1320 197.11555530025123T 1650 192.20908422829876T 1980 225.460814725169L 1980 0 Z">
+                </animate>
+            </path>
+        </g>
+    </svg>
+    </section>
+    <section>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </body>
 
 </html>
