@@ -45,3 +45,42 @@ span.cursor.typing {
     background-color: #ffffff;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mockup-bg {
+background-image: url('https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e4d30aed-e0f1-48fa-bfed-2a2c5b0b5657');
+background-repeat: no-repeat;
+background-position: center;
+}
+@keyframes gelatine {
+
+0%, 100% {
+  transform: scale(1, 1);
+}
+25% {
+  transform: scale(0.9, 1.1);
+}
+50% {
+  transform: scale(1.1, 0.9);
+}
+75% {
+  transform: scale(0.95, 1.05);
+}
+}
